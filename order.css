@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+   --orange :#ff7800;
+   --black :#130f40;
+   --light-color:#666;
+   --box-shadow: 0 .5rem 1.5rem rgba( 0 , 0 , 0 , .1);
+   --border: .2rem solid rgba( 0 , 0 , 0 , .1);
+   --outline: 1rem solid rgba( 0 , 0 , 0 , .1);
+   --outline-hover: .2rem solid var(--black);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border:none;
+    transition: all .2s linear;
+}
+
+body{
+    background-color: #eee;
+}
+/* start styling of products */
+.heading{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.heading span{
+    background: var(--orange);
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.products .renderProduct{
+    padding:0.5rem;
+}
+.products .renderProduct:first-child{
+    margin-bottom: 2rem;
+}
+.products .renderProduct .box{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding:0.5rem 0.5rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+.products .renderProduct .box:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.products .renderProduct .box img{
+    height:15rem;
+}
+.products .renderProduct .box h3{
+    font-size: 1rem;
+    color:var(--black)
+}
+.products .renderProduct .box .price{
+    font-size: 1rem;
+    color:var(--black);
+    padding:.5rem 0;
+}
+.products .renderProduct .box .stars i{
+    font-size: 1rem;
+    color:var(--orange);
+    padding:.5rem 0;
+}
+/* end styling of products */
+
+.products-list{
+    width:200px;
+    height:200px
+}
+.renderProduct img{
+    width:200px;
+    height:200px
+}
+
+.products .renderProduct{
+    display:grid;
+    grid-template-columns: repeat(auto-fit , minmax(20rem , 1fr));
+    gap:1rem;
+}
+
+.imageCart{
+    width:100%;
+    height: 200px;
+}
+.action{
+  text-align: center;
+}
+.plus , .minus{
+    background-color: #d5d1d1;
+    padding:3px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+.removeBtn{
+   background-color: #a8a3a3;
+   width:100%
+}
+#To_cart{
+    position: absolute;
+    top:0
+}
+.sideNav .closebtn{
+    position: absolute;
+    top: 0%;
+    right: 30px;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.closebtn{
+    cursor: pointer;
+}
+
+#mainbox{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.sidemenu{
+    position: fixed;
+    top:0;
+    right:0;
+    height:100%;
+    width:0px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all 1s;
+}
+
+
+.sidemenu .closebtn{
+    position:absolute;
+    top:0;
+    right:18px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+#menu img{
+    width:200px;
+    height: 200px;
+}
+
+/* start styling of categories */
+.categories .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit , minmax(20 , 1fr));
+    gap:1rem;
+}
+.categories   .box{
+    padding:0.5rem 0.5rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    text-align: center;
+}
+.categories .box:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.categories   .box img{
+    margin:0.2rem 0;
+    height:10rem;
+}
+.categories  .box h3{
+    font-size: 1rem;
+    color:var(--black);
+    line-height: 1.8;
+}
+.categories .box p{
+    font-size: 1rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding:0.5rem 0;
+}
+
+/* end styling of categories */
+footer{
+    margin-top: 50px;
+}

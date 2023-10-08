@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #d0e7fe 0%, #e4ddec 100%);
+}
+.container{
+    position: absolute;
+    top:10%;
+    left:25%
+}
+body{
+    overflow-x: hidden;
+ }
+ .app{
+    color:blue;
+ }
+ .navbar .navbar-brand img {
+    height: 30px;
+    border-radius: 5px;
+  }
+ 
+  .navbar .navbar-brand {
+    padding-top: 0;
+  }
+ 
+  .navbar .nav-link {
+    color: #444343!important;
+  }
+ 
+  .navbar .button-collapse {
+    padding-top: 1px;
+  }
+ 
+  .card-intro .card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+  }
+ 
+  .card-intro .card-body h1 {
+    margin-bottom: 0;
+  }
+ 
+  .card-intro {
+    margin-top: 64px;
+  }
+ 
+  @media (max-width: 450px) {
+    .card-intro {
+      margin-top: 56px;
+    }
+  }
+ 
+  @media (min-width: 1441px) {
+    .card-intro {
+      padding-left: 0 !important;
+    }
+  }
+  .testimonial img{
+     height:190px;
+     width:260px
+  }
+  .text-muted{
+     margin-top: 30px;
+  }
+  .btn-purple{
+     margin-top: 40px;
+  }
+  .fa-solid , .fa-meat{
+     color : blueviolet;
+     font-size: 50px;
+  }
+  .last{
+     margin-top: 80px;
+  }
+  .view img{ 
+     border-radius: 5px;
+  }
+ .z-depth-1{
+     margin-top: 70px;
+  }
+  .map-container {
+   height: 200px;
+   position: relative;
+ }
+ 
+ .map-container iframe {
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+ }
+ .input-grey .form-control {
+   border-radius: .125rem;
+ }
+ 
+ .form-control:focus {
+   background-color: rgba(255,255,255,.3);
+ }
+ 
+ .input-grey input::placeholder {
+   color: #fff;
+ }
+ .service i{
+   font-size: 75px;
+ }

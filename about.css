@@ -1,0 +1,101 @@
+body{
+    overflow-x: hidden;
+}
+.componentSection{
+    padding:10px;
+    width: 100%;
+    background: #212529;(195, 195, 195);
+}
+.componentSection h2 , .componentSection p , .componentSection h5{
+    color:white;
+}
+.componentSection i{
+    font-size: 50px;
+    color:purple
+}
+.sandwitchSection i{
+  color:orange
+}
+.halfSection{
+    background-color: black;
+}
+.halfSection li , .halfSection h4 {
+    color:white
+}
+.anotherHalf{
+    background-color: #ff1744 ;
+}
+.anotherHalf li , .anotherHalf h4{
+    color:white
+}
+
+
+/* start styling of review */
+.review{
+    margin-top: 50px;
+}
+.review .review-slider{
+    padding:1rem;
+}
+.review .review-slider .box{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding:1.5rem 1rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+.review .review-slider .box:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.review .review-slider .box img{
+    height: 10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+.review .review-slider .box p{
+    padding:0.5rem 0;
+    line-height: 1.8;
+    color:var(--light-color);
+    font-size: 1rem;
+}
+.review .review-slider .box h3{
+    padding-bottom:.5rem;
+    color:var(--black);
+    font-size: 1.5rem;
+}
+.review .review-slider .box .stars i{
+    color:var(--orange);
+    font-size: 1rem;
+}
+/* end styling of review */
+.heading{
+    text-align: center;
+    padding:1rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.heading span{
+    background: orange;
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 1rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.review .stars{
+    color:orange
+}
+
+.allwords{
+    position: relative;
+    top:100px
+}
+
+.firstSection{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
